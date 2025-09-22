@@ -11,3 +11,10 @@ WHERE marca = 'LOréal Paris';
 
 UPDATE produtos SET preco = preco - 0.10
 WHERE preco < 20;
+
+-- Exercicio Extra
+UPDATE produtos SET preco = preco - 0.30
+WHERE categoria = 'Perfumes';
+
+UPDATE produtos SET estoque = estoque + 25
+WHERE preco > 150;
